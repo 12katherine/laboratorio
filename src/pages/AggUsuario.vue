@@ -11,7 +11,7 @@
                 <v-dialog v-model="dialog" persistent>
                     <template v-slot:activator="{ on, attrs }">
                         <v-btn color="primary" dark v-bind="attrs" v-on="on">
-                            Nuevo usuario
+                            Nuevo usuario    
                         </v-btn>
                     </template>
                     <v-card>
