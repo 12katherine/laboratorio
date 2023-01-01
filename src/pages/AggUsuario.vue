@@ -7,7 +7,7 @@
                 </v-btn>
             </v-col>
 
-            <v-col cols="5" xs="7" sm="4" md="2" lg="2" xl="2">
+            <v-col cols="5" xs="7" sm="4" md="2" lg="2" xl="2">   
                 <v-dialog v-model="dialog" persistent>
                     <template v-slot:activator="{ on, attrs }">
                         <v-btn color="primary" dark v-bind="attrs" v-on="on">
