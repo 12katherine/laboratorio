@@ -422,7 +422,7 @@ export default {
         
         listarCiudad() {
             axios
-                .get("https://app-laboratorio.vercel.app/api/ciudad/departamento")
+                .get("https://app-laboratorio.vercel.app/api/ciudad/CiudadDepartamento")
                 .then((response) => {
                     console.log(response);
                     response.data.ciudad.forEach((city) => {
@@ -706,9 +706,9 @@ export default {
 
         listarContactos() {
             let header = { headers: { "token": this.$store.state.token } };
-            axios.get(`https://app-laboratorio.vercel.app/api/usuarios/ListarContactos`, header)
+            axios.get("https://app-laboratorio.vercel.app/api/usuarios/ListarContactos", header)
                 .then((response) => {
-                    this.contactos = response.data.usuarios
+                    this.contacto = response.data.usuarios
                     console.log(response);
                 })
                 .catch((error) => {

@@ -6,7 +6,7 @@ import clientes from "../pages/Clientes.vue"
 import Registro from "../pages/RegistroLogin.vue"
 import OrdenServicio from "../pages/OrdenServicio.vue"
 import Calidad  from "../pages/Calidad.vue";
-import cotizacion from '../pages/Cotizacion.vue';
+import Cotizacion from '../pages/Cotizacion.vue'; 
 import RecepcionMuestras from "../pages/RecepcionMuestras.vue"
 import ConfiguracionAdmin from "../pages/ConfiguracionAdmin.vue"
 import AgreCiudades from '../pages/AgreCiudades.vue'
@@ -32,7 +32,7 @@ export const routes = [
     { path: "/clientes", component: clientes},
     {path: '/Calidad', component: Calidad}, 
     { path: "/OrdenServicio", component: OrdenServicio },
-    { path: '/Cotizacion', component: cotizacion },
+    { path: '/Cotizaciones', component: Cotizacion },
     
     {path: '/perfilpersona', component: Perfilpersona},
     { path: '/RecepcionMuestras', component: RecepcionMuestras },

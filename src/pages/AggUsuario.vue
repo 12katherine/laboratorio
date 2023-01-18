@@ -101,59 +101,11 @@
             </v-col>
         </v-row>
 
-        <!-- <v-row>
-            <v-col cols="12">
-                <v-simple-table fixed-header height="300px">
-                    <template v-slot:default>
-                        <thead>
-                            <tr>
-                                <th class="text-left black--text title"> Tipo Persona</th>
-                                <th class="text-left black--text title"> Rol </th>
-                                <th class="text-left black--text title"> Nombre</th>
-                                <th class="text-left black--text title"> Apellidos </th>
-                                <th class="text-left black--text title"> Documento </th>
-                                <th class="text-left black--text title"> Dirección </th>
-                                <th class="text-left black--text title"> Ciudad </th>
-
-                                <th class="text-left black--text title"> Celular </th>
-                                <th class="text-left black--text title"> Estado </th>
-                                <th class="text-left black--text title"> Cargo </th>
-                                <th class="text-left black--text title"> Telefono </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr v-for="(p, i) in Usuarios" :key="i">
-                                <td>{{p.tipoPersona}}</td>
-                                <td>{{p.rol}}</td>
-                                <td>{{p.nombre}}</td>
-                                <td>{{p.apellidos}}</td>
-                                <td>{{p.documento}}</td>
-                                <td>{{p.direccion}}</td>
-                                <td>{{p.ciudad.ciudad}}</td>
-                                <td>{{p.celular}}</td>
-                                <td>{{p.email}}</td>
-                                <td v-if="p.estado===1">
-                                    <button @click="desactivar(p)">
-                                        <span class="green--text"> Activo </span></button>
-                                </td>
-                                <td v-else>
-                                    <button>
-                                        <span class="red--text" @click="activar(p)"> Inactivo </span></button>
-                                </td>
-                                <td>{{p.cargo}}</td>
-                                <td>{{p.telefono}}</td>
-                            </tr>
-                        </tbody>
-                    </template>
-                </v-simple-table>
-            </v-col>
-        </v-row> -->
-
-        <!-- tabla -->
+       
         <div>
             <v-card>
                 <v-card-title>
-                    Usuarios
+                    USUARIOS
                     <v-spacer></v-spacer>
                     <v-text-field v-model="search" append-icon="mdi-magnify" label="Search" single-line hide-details>
                     </v-text-field>
@@ -281,12 +233,7 @@
                                            @click:append="show = !show" filled rounded dense>
                                     </v-text-field>
                                 </v-col>
-                                <!-- 
-                                                    CONFIRMAR CONTRTASEÑA
-                                                    <v-col cols="6" sm="6" class="mt-n7">
-                                                    <v-text-field v-model="password1" type="password" label="Confirm Password*" filled rounded dense>
-                                                    </v-text-field>
-                                                </v-col> -->
+                               
                             </v-row>
                         </v-container>
                     </v-card-text>
@@ -390,12 +337,12 @@ export default {
                 value: "ciudad.ciudad",
             },
             
-            {
-                text: "Contacto",
-                align: "start",
-                sortable: false,
-                value: "contacto.nombre",
-            },
+            // { 
+            //     text: "Contacto",
+            //     align: "start",
+            //     sortable: false,
+            //     value: "contacto.nombre",
+            // },
             {
                 text: "Dirección",
                 align: "start",

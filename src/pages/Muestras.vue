@@ -11,7 +11,7 @@
         <template>
           <v-card>
             <v-card-title>
-              Clientes
+              CLIENTES
               <v-spacer></v-spacer>
               <v-text-field
                 v-model="search"
@@ -51,8 +51,7 @@ export default {
     search: "",
     clientes: [],
     headers: [
-      {
-        text: "Nombres",
+      {text: "Nombres",
         align: "start",
         sortable: false,
         value: "nombre",

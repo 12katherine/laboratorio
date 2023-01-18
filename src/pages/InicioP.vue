@@ -69,7 +69,7 @@
                   <div class="d-flex flex-no-wrap justify-space-between">
                       <div>
 
-                          <v-card-title class="text-h5 text--primary"> Nueva<br>Cotizaciones </v-card-title>
+                          <v-card-title class="text-h5 text--primary"> Nuevas<br>Cotizaciones </v-card-title>
                          
                           <v-card-actions>
 

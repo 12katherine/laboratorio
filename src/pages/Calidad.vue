@@ -402,34 +402,22 @@ export default {
         editarC(){
             axios.put(`https://app-laboratorio.vercel.app/api/cotizacion/activar/{}`, {
                 ListadoMuestras:[
-                    {
-
-                    }
+                    {}
                 ],
                 InformeResultado:[
-                    {
-
-                    }
+                    {}
                 ],
                 RecepcionMuestras:[
-                    {
-
-                    }
+                    {}
                 ],
                 OrdenServicio:[
-                    {
-
-                    }
+                    {}
                 ],
                 InstructivoTomaMuestras:[
-                    {
-
-                    }
+                    {}
                 ],
                 Seguimiento:[
-                    {
-
-                    }
+                    {}
                 ],
                 
 

@@ -31,10 +31,7 @@
                 <v-list three-line subheader>
                   <v-container-fluid>
                     <v-row style="margin: 0">
-                      <!-- <v-col cols="12" xs="12" sm="12" md="2" lg="2" xl="2" class="text-left">
-                        <img height="200" width="200"
-                          src="https://agenciapublicadeempleo.sena.edu.co/imgLayout/logos/LogoSENA-naranja_vector.png" />
-                      </v-col> -->
+                      
                       <v-col cols="12" xs="12" sm="12" md="10" lg="10" xl="10">
                         <v-row>
                           <v-col cols="10">
@@ -138,9 +135,6 @@
                         style="border: solid 1px; border-color: black; border-top: 0px; border-left: 0px;"
                         class="pa-0 ma-0 text-center">
                         <h3 class="mt-3">{{NombreContacto1}}</h3>
-
-
-
 
                       </v-col>
                     </v-row>
