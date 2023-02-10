@@ -5,7 +5,7 @@ import iniciop from "../pages/InicioP.vue"
 import clientes from "../pages/Clientes.vue"
 import Registro from "../pages/RegistroLogin.vue"
 import OrdenServicio from "../pages/OrdenServicio.vue"
-import Calidad  from "../pages/Calidad.vue";
+// import Calidad  from "../pages/Calidad.vue";
 import Cotizacion from '../pages/Cotizacion.vue'; 
 import RecepcionMuestras from "../pages/RecepcionMuestras.vue"
 import ConfiguracionAdmin from "../pages/ConfiguracionAdmin.vue"
@@ -30,7 +30,7 @@ export const routes = [
     { path: "/iniciop", component: iniciop },
 
     { path: "/clientes", component: clientes},
-    {path: '/Calidad', component: Calidad}, 
+    // { path: '/Calidad', component: Calidad}, 
     { path: "/OrdenServicio", component: OrdenServicio },
     { path: '/Cotizaciones', component: Cotizacion },
     
